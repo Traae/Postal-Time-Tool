@@ -83,6 +83,7 @@ header {
 }
 .tool {
   flex: 0 0 auto;
+  padding-bottom: 25px;
 }
 
 /* Section Container settings */
@@ -125,14 +126,4 @@ h3 {
 }
 p {
   padding-top: 10px;
-}
-
-li {
-  padding-top: 3px;
-  margin-left: 12px;
-}
-
-ul,
-ol {
-  list-style-position: inside;
 }
