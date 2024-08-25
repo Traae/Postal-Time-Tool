@@ -1,6 +1,8 @@
-# US_Postal_Service_Clock_Website
+# Postal Time Tool
 
-A simple website that displays time in the united states postal service format.
+A simple app that displays time in the united states postal service format.
+
+The USPS uses a combination of military time + hour hundredths. 1:15 pm = 1325.
 
 ## Purpose
 
@@ -12,7 +14,7 @@ We in the programming world don't do math, we get computers to do it for us.
 
 ### Functional
 
-- UI doesn't really matter, just needs to work
+- UI doesn't need to be slick, just needs to work
 - display the current time in Postal service format
 - have a field to convert to and from the format to normal 12 hour time.
 - a stopwatch?
