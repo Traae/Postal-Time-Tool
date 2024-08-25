@@ -16,7 +16,7 @@
     <section id="headingBorder1"></section>
     <section id="headingBorder2"></section>
 
-    <div id="mainContent">
+    <section id="mainContent">
       <div class="tool clock">
         <p>Clock</p>
         <p id="uspsclock">0000</p>
@@ -25,7 +25,7 @@
       <div class="tool convertToPostal">
         <!-- This time entry code was taken from this tutorial: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time
         -->
-        <p>Convert to Postal Time</p>
+        <p>Normal to Postal Time</p>
         <input type="time" id="timeInput" name="timeInput" min="00:00" max="12:00" required />
         <button onclick="convertToPostalButton()" class="btn">convert</button>
         <p id="convertToPostal">Enter your time.</p>
@@ -33,14 +33,14 @@
       <div class="tool convertToNormal">
         <!-- This time entry code was taken from this tutorial: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time
         -->
-        <p>Convert to Postal Time</p>
+        <p>Postal to Normal Time</p>
         <input type="text" id="postalInput" name="postalInput" maxlength="4" pattern="\d{4}" required />
         <button onclick="convertToNormalButton()" class="btn">convert</button>
         <p id="convertToNormal">Enter your postal time.</p>
       </div>
-      <div class="tool postalStopwatch">
-        <!-- This time entry code was taken from this tutorial: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time
-        -->
+      <!-- <div class="tool postalStopwatch">
+        <!- This time entry code was taken from this tutorial: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time
+        ->
         <p>Postal Stopwatch</p>
         <div id="time">
           <span class="digit" id="hr">
@@ -62,15 +62,8 @@
               Stop</button>
           <button class="btn" id="reset">
               Reset</button>
-      </div>
-      </div>
-      <!-- <div class="tool stopwatch">
-
-        <button onclick="" class="btn"></button>
-      </div>  -->
-    </div>
-       
-    </div>
+      </div> -->
+   </section>
     <section id="footingStripe" class="backingContainer">
       <footer><a
         href="https://postalemployeenetwork.com/time-conversion.htm"

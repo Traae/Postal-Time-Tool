@@ -34,12 +34,6 @@ function convertToPostalButton() {
   );
   document.getElementById("convertToPostal").innerHTML = output;
 }
-function formatNumber(n) {
-  if (n < 10) {
-    return "0" + n;
-  }
-  return "" + n;
-}
 
 // CONVERT TO NORMAL
 function convertToNormalTime(postal) {
@@ -62,15 +56,39 @@ function convertToNormalButton() {
   );
 }
 
+// OTHER
+function formatNumber(n) {
+  if (n < 10) {
+    return "0" + n;
+  }
+  return "" + n;
+}
+
 // // STOP WATCH
-// let startBtn = document.getElementById('start');
-// let stopBtn = document.getElementById('stop');
-// let resetBtn = document.getElementById('reset');
+
+// let startBtn = document.getElementById("start");
+// let stopBtn = document.getElementById("stop");
+// let resetBtn = document.getElementById("reset");
 
 // let hour = 00;
 // let minute = 00;
 // let second = 00;
 // let count = 00;
+
+// function stopWatch() {
+//   var time = new Date();
+//   var clock = time.toLocaleTimeString("en-US", { hour12: true });
+
+//   var h = time.getHours();
+//   var m = time.getMinutes();
+
+//   document.getElementById("uspsclock").innerHTML = convertToPostalTime(h, m);
+//   document.getElementById("normalclock").innerHTML = clock;
+
+//   t = setTimeout(function () {
+//     startTime();
+//   }, 500);
+// }
 
 // startBtn.addEventListener('click', function () {
 //     timer = true;
